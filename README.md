@@ -13,3 +13,25 @@
 # Other Python Files:
   syntactic_Complexity.py: Contains the implemented Algorithm for syntactic complexity measurement. It uses both Part-of-Speech-Based and Dependency_Based syntactic structures of the sentences.  
   Similarity-Check.py : It computes the similarity of a simplified sentence set against the original text.
+
+
+# Citation:
+
+If you use this work, please cite:  
+
+@ARTICLE{2023arXiv230407774S,  
+       author = {{Salman}, Muhammad and {Haller}, Armin and {Rodrìguez Mèndez}, Sergio J.},  
+        title = "{Syntactic Complexity Identification, Measurement, and Reduction Through Controlled Syntactic Simplification}",  
+      journal = {arXiv e-prints},  
+     keywords = {Computer Science - Computation and Language, Computer Science - Information Retrieval},  
+         year = 2023,  
+        month = apr,  
+          eid = {arXiv:2304.07774},  
+        pages = {arXiv:2304.07774},  
+          doi = {10.48550/arXiv.2304.07774},  
+archivePrefix = {arXiv},  
+       eprint = {2304.07774},  
+ primaryClass = {cs.CL},  
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230407774S},   
+}
+
