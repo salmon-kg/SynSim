@@ -15,7 +15,7 @@ import string
 from spacy.pipeline import DependencyParser
 import csv
 
-path = os.path.expanduser('~/Desktop/Chatgpt3/')
+path = os.path.expanduser('PATH')
 ssents=0
 TS=0.05
 VS=0.3
@@ -65,8 +65,6 @@ def complexity_dep_sent(text):
     for token in tokens:
         #tkntag(token)
         if "ROOT" in token.dep_:
-            #print(token)
-            #print('Verb Found')
             VRB+=1
         elif "attr" in token.dep_:
             VRB+=1
@@ -75,7 +73,6 @@ def complexity_dep_sent(text):
         elif "punct" in token.dep_ and token.text!=".":
              CNJ+=1
         elif "cc" in token.dep_:
-            #print('Conjunction Found')
             CNJ+=1
         else:
             continue
@@ -303,7 +300,6 @@ with open(path+'sim/gpt-sents-cs-sim.csv') as csv_file:
     print(f'Average Syntactic Complexity Per Sentence= {total_complexity_pos/ssents}')
     print(f'IDENTIFIED: Complex Sentences = {complex_sent_pos} and Simple Sentences = {simple_sent_pos}')
     print(f'Accuracy = {(simple_sent_pos/ssents)*100}%')
-
     print("--------------------------------------------------")
 
 
