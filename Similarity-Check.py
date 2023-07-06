@@ -14,16 +14,12 @@ import string
 import csv
 from spacy.lang.en import English
 
-path = os.path.expanduser('~/Desktop/SS/')
+path = os.path.expanduser(PATH)
 
 # Get default English stopwords and extend with punctuation
 stopwords = nltk.corpus.stopwords.words('english')
 stopwords.extend(string.punctuation)
 stopwords.append('')
-
-a=('Two of the boatmen are hanged.  However, Morse does not believe that they were the perpetrators.')
-#b=('ANU is located in Canberra which is the capital city of Australia')
-b=('Two of the boatmen are hanged Morse does  not believe that they were the perpetrators .')
 
 def tokenize(text):
     tokens = nltk.word_tokenize(text)
