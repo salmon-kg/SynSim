@@ -9,3 +9,7 @@
 
  ## Re-Annotated Benchmark:
  This folder contains the re-annotated dataset by GPT in ReAnnotated_Benchmark.csv file.
+
+# Other Python Files:
+  syntactic_Complexity.py: Contains the implemented Algorithm for syntactic complexity measurement. It uses both Part-of-Speech-Based and Dependency_Based syntactic structures of the sentences.  
+  Similarity-Check.py : It computes the similarity of a simplified sentence set against the original text.
