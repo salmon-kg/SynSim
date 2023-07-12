@@ -9,7 +9,9 @@
   Syntactic Simplification Process for Split & Rephrase
   <img align="center"  src="https://github.com/sallmanm/SynSim/blob/main/tree.png" alt="...">
 </h2>
-
+<h2 align="center">
+  <img align="center"  src="https://github.com/sallmanm/SynSim/blob/main/snr.png" alt="...">
+</h2>
 ## Evaluation
 <h2 align="center">
   Syntactic Complexity Identification 
