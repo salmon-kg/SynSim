@@ -1,8 +1,4 @@
-<h1 align="center">
-  SynSim
-</h1>
-
-# SynSim: Syntactic Complexity Identification and Simplification Through GPT
+# SynSim — Syntactic Complexity Identification and Simplification Through GPT
 
 ## Summary
 Text simplification is one of the domains in Natural Language Processing (NLP) that offers an opportunity to understand the text in a simplified manner for exploration. However, it is always hard to understand and retrieve knowledge from unstructured text, which is usually in the form of compound and complex sentences. There are state-of-the-art neural network-based methods to simplify the sentences for improved readability while replacing words with plain English substitutes and summarising the sentences and paragraphs.  
@@ -36,11 +32,11 @@ This folder contains the following files:
 ## Re-Annotated Benchmark:
 This folder contains the re-annotated dataset by GPT in the `ReAnnotated_Benchmark.csv` file.
 
-# Other Python Files:
+## Other Python Files:
 - `syntactic_Complexity.py`: Contains the implemented algorithm for syntactic complexity measurement. It uses both Part-of-Speech-Based and Dependency_Based syntactic structures of the sentences.  
 - `Similarity-Check.py`: It computes the similarity of a simplified sentence set against the original text.  
 
-# Citation:
+## Citation:
 
 If you use this work, please cite:  
 
